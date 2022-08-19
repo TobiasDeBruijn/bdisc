@@ -1,0 +1,6 @@
+syntax = "proto3";
+package dev.array21.bdisc;
+
+message PostOauth2LoginResponse {
+  string redirectUrl = 1;
+}

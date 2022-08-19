@@ -1,0 +1,3 @@
+[submodule "server/deps/refinery"]
+	path = server/deps/refinery
+	url = https://github.com/TobiasDeBruijn/refinery.git

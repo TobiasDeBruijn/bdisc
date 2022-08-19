@@ -1,0 +1,26 @@
+[package]
+name = "routes"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.1.0"
+actix-multiresponse = "0.2.0"
+actix-cors = "0.6.2"
+thiserror = "1.0.32"
+tracing = "0.1.36"
+tracing-actix-web = "0.6.0"
+urlencoding = "2.1.0"
+
+[dependencies.serde]
+version = "1.0.143"
+features = ["derive"]
+
+[dependencies.proto]
+path = "../proto"
+
+[dependencies.discord]
+path = "../discord"
+
+[dependencies.dal]
+path = "../dal"

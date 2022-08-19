@@ -1,0 +1,10 @@
+syntax = "proto3";
+package dev.array21.bdisc;
+
+message User {
+  string id = 1;
+  string username = 2;
+  string discriminator = 3;
+  optional string avatar = 4;
+  optional bool bot = 5;
+}

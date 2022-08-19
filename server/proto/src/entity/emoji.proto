@@ -1,0 +1,9 @@
+syntax = "proto3";
+package dev.array21.bdisc;
+
+message Emoji {
+  optional string id = 1;
+  optional string name = 2;
+  repeated string roles = 3;
+  bool animated = 4;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+package dev.array21.bdisc;
+
+import "entity/emoji.proto";
+import "entity/role.proto";
+
+message Guild {
+  string id = 1;
+  string name = 2;
+  optional string icon = 3;
+  optional string icon_hash = 4;
+  repeated Role roles = 5;
+  repeated Emoji emojis = 6;
+  string description = 7;
+}

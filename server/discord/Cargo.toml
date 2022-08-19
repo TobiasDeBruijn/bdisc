@@ -1,0 +1,20 @@
+[package]
+name = "discord"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+thiserror = "1.0.32"
+lazy_static = "1.4.0"
+
+[dependencies.serde]
+version = "1.0.143"
+features = ["derive"]
+
+[dependencies.proto]
+path = "../proto"
+
+[dependencies.reqwest]
+version = "0.11.11"
+default-features = false
+features = ["rustls-tls", "json"]
